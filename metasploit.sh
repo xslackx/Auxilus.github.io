@@ -2,9 +2,15 @@
 
 echo "installing Prequisities \n"
 apt update && apt upgrade
-apt install autoconf bison clang coreutils curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev \
-    postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config \
-    postgresql-contrib wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses
+apt install autoconf bison clang \
+    coreutils curl findutils git \
+    apr apr-util libffi libgmp \
+    libpcap postgresql readline \
+    libsqlite openssl libtool \ 
+    libxml2 libxslt ncurses \ 
+    pkg-config wget make ruby \
+    libgrpc termux-tools \
+    ncurses-utils ncurses
 
 echo "\n"
 echo "cloning Metasploit framework\n"
